@@ -22,7 +22,7 @@
     <TextView
         android:id="@+id/txtViewTag"
         android:layout_width="355dp"
-        android:layout_height="44dp"
+        android:layout_height="100dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="22dp"
@@ -30,28 +30,27 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtViewWord"
-        app:layout_constraintHorizontal_bias="0.545" />
+        app:layout_constraintHorizontal_bias="0.538" />
 
     <Button
         android:id="@+id/btnTag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="109dp"
-        android:layout_marginTop="267dp"
+        android:layout_marginTop="363dp"
         android:text="显示标签"
         app:layout_constraintRight_toLeftOf="@+id/btnNext"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.576" />
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/btnNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="下一个"
-        android:layout_marginTop="267dp"
+        android:layout_marginTop="363dp"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="41dp"
+        android:layout_marginRight="43dp"
         app:layout_constraintRight_toRightOf="parent" />
 </android.support.constraint.ConstraintLayout>
