@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">EnglishReader</string>
+    <string name="btn_look_title">显示标签</string>
+    <string name="btn_next_title">下一个</string>
+    <string name="txt_word_content">Word</string>
+    <string name="txt_tag_content">Tag</string>
+    <string name="changeMode">切换模式</string>
+    <string name="reload">重新加载数据</string>
 </resources>
