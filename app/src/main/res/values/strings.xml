@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EnglishReader</string>
+    <string name="app_name">语言小工具</string>
     <string name="btn_look_title">显示标签</string>
     <string name="btn_next_title">下一个</string>
     <string name="txt_word_content">Word</string>
