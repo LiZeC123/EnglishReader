@@ -1,8 +1,6 @@
 package manager;
 
 
-import android.provider.ContactsContract;
-
 import java.io.File;
 import java.util.ArrayList;
 
