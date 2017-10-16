@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_changeMode:
                 manager.changeModel();
                 thisModel = manager.getModel();
-                thisPair = thisModel.getPair();
+                Toast.makeText(this,"切换完成",Toast.LENGTH_SHORT).show();
                 Log.i("菜单","切换模式");
                 return true;
             case R.id.action_reload:
