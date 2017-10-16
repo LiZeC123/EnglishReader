@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -155,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
                 case RELOAD_FINISH:
                     manager.reload(dataSpaceDir);
                     thisModel = manager.getModel();
+                    Toast.makeText(MainActivity.this,"更新完成",Toast.LENGTH_LONG).show();
                     break;
                 default:
                     break;
